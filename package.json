@@ -1,0 +1,19 @@
+{
+  "name": "flock-demo",
+  "version": "1.0.0",
+  "description": "Flock Demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@pdihub.hi.inet:guido/flock-demo.git"
+  },
+  "keywords": [
+    "flock",
+    "demo"
+  ],
+  "author": "Guido García",
+  "license": "MIT"
+}
