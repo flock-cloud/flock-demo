@@ -2,18 +2,25 @@
   "name": "flock-demo",
   "version": "1.0.0",
   "description": "Flock Demo",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git@pdihub.hi.inet:guido/flock-demo.git"
+    "url": "git@github.com:palmerabollo/flock-demo.git"
   },
   "keywords": [
     "flock",
     "demo"
   ],
   "author": "Guido García",
-  "license": "MIT"
+  "license": "MIT",
+
+  "flock": {
+      "instances": 1,
+      "cpus": 0.1,
+      "mem": 32,
+      "ports": 1
+  }
 }
