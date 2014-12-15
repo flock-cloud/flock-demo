@@ -1,4 +1,4 @@
 flock-demo
 ==========
 
-Flock Demo Project
+Flock Demo
