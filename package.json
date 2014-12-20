@@ -25,16 +25,9 @@
   },
   "checks": [
     {
-      "id": "app-internet",
-      "name": "check internet connection",
-      "script": "ping -c 1 www.google.com",
-      "interval": "10s"
-    },
-    {
-      "id": "service-check",
-      "name": "service check",
-      "script": "curl http://localhost:$PORT0",
-      "interval": "5s"
+      "path": "/",
+      "intervalSeconds": 30,
+      "maxConsecutiveFailures": 3
     }
   ]
 }
