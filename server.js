@@ -6,4 +6,4 @@ http.createServer(function (req, res) {
     res.end(JSON.stringify(process.env));
 }).listen(process.env.PORT0); // dynamic binding
 
-console.log('flock-demo http://0.0.0.0:%d/', process.env.PORT0);
+console.log('flock-demo at http://0.0.0.0:%d/', process.env.PORT0);
