@@ -26,7 +26,7 @@
   "checks": [
     {
       "path": "/",
-      "intervalSeconds": 30,
+      "intervalSeconds": 15,
       "maxConsecutiveFailures": 3
     }
   ]
