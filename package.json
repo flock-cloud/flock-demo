@@ -18,7 +18,7 @@
   "license": "MIT",
 
   "flock": {
-      "instances": 1,
+      "instances": 2,
       "cpus": 0.1,
       "mem": 32,
       "ports": 1
