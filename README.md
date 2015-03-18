@@ -1,4 +1,4 @@
 flock-demo
 ==========
 
-Flock Demo. An app for Mesos. Work in progress.
+Flock Demo. A simple app for Mesos. Work in progress.
